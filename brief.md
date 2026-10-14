@@ -22,5 +22,6 @@ Resource: NIST Special Publication 800-63B – Digital Identity Guidelines: Auth
 Under Oman’s Personal Data Protection Law, the authority must protect citizens’ personal data and process it lawfully. It should obtain consent when required, clearly explain why the data is collected, protect its confidentiality, keep processing records, respect users’ rights to access or correct their data, and report certain data breaches. Appropriate technical and organizational measures must also be used to reduce privacy and security risks.
 Resource: Personal Data Protection – Ministry of Transport, Communications and Information Technology – https://www.mtcit.gov.om/sectors/governance/personal
 ## Misconception in My Track
-
+A common misconception is that OAuth 2.0 and OpenID Connect do the same job. OAuth 2.0 mainly provides a framework for authorization and access to resources, while OpenID Connect adds an identity layer that supports user authentication and login. The OpenID Foundation explains this under the section “What is OAuth 2.0 and how does it related to OpenID Connect?” This distinction is important because a login service must verify who the user is, not only what resources an application may access.
 ## Open Question
+How should NAFATH securely manage user sessions and token expiration across multiple government services without forcing users to log in repeatedly?
